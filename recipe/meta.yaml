@@ -10,8 +10,8 @@ package:
 source:
   fn: stabledist_{{ version }}.tar.gz
   url:
-    - https://cran.r-project.org/src/contrib/stabledist_{{ version }}.tar.gz
-    - https://cran.r-project.org/src/contrib/Archive/stabledist/stabledist_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/stabledist_{{ version }}.tar.gz
+    - {{ cran_mirror }}/src/contrib/Archive/stabledist/stabledist_{{ version }}.tar.gz
   sha256: 06c5704d3a3c179fa389675c537c39a006867bc6e4f23dd7e406476ed2c88a69
 
 
